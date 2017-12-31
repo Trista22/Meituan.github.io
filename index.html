@@ -1,0 +1,2310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>南京美团网</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/icon.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+    <!--顶部-->
+    <div class="topbox">
+        <div class="top sec1190">
+            <!--  <img src="slices/1.top.gif"> -->
+            <!--左侧部分-->
+            <div class="basic">
+                <ul>
+                    <li><img class="set-position c-gray" src="images/set-position.jpg"><span class="c-gray">南京</span></li>
+                    <li><a href="" class="change-city c-gray">切换城市</a></li>
+                </ul>
+                <div class="near-city">
+                    <span class="c-lgray">[</span>
+                    <li class="city-guess"><a href="">句容</a></li>
+                    <li class="city-guess"><a href="">仪征</a></li>
+                    <li class="city-guess"><a href="">马鞍山</a></li>
+                    <span class="c-lgray">]</span>
+                </div>
+                <div class="user-entry">
+                    <a href="" class="c-blue">立即登录</a>
+                    <a href="">注册</a>
+                </div>
+            </div>
+            <!--右侧部分-->
+            <div class="user f-right">
+                <ul>
+                    <li class="toggleli" id="li1">
+                        <a class="togglea" href="">我的美团</a>
+                        <ul class="togglemenu my-meituan">
+                                <li><a href="">我的订单</a></li>
+                                <li><a href="">我的评价</a></li>
+                                <li><a href="">我的收藏</a></li>
+                                <li><a href="">抵用券</a></li>
+                                <li><a href="">账户设置</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">手机APP</a></li>
+                    <li class="toggleli" id="li2">
+                        <a class="togglea" href="">商家中心</a>
+                        <ul class="togglemenu seller">
+                            <li><a href="">登录商家中心</a></li>
+                            <li><a href="">我想合作</a></li>
+                            <li><a href="">手机免费开店</a></li>
+                            <li><a href="">餐饮代理商招募</a></li>
+                            <li><a href="">商家申请开票</a></li>
+                        </ul>
+                    </li>
+                    <li class="toggleli" id="li3">
+                        <a class="togglea" href="">网站导航</a>
+                        <div class="togglemenu net-navlist">
+                            <dl class="width-1">
+                                <dt>酒店旅游</dt>
+                                <dd>国际机票</dd>
+                                <dd>火车票</dd>
+                                <dd>榛果民宿</dd>
+                                <dd>经济型酒店</dd>
+                                <dd>主题酒店</dd>
+                                <dd>商务酒店</dd>
+                                <dd>公寓</dd>
+                                <dd>豪华酒店</dd>
+                                <dd>客栈</dd>
+                                <dd>青年旅社</dd>
+                                <dd>度假酒店</dd>
+                                <dd>别墅</dd>
+                                <dd>农家院</dd>
+                            </dl>
+                            <dl class="width-2">
+                                <dt>吃美食</dt>
+                                <dd>烤鱼</dd>
+                                <dd>特色小吃</dd>
+                                <dd>烧烤</dd>
+                                <dd>自助餐</dd>
+                                <dd>火锅</dd>
+                                <dd>代金券</dd>
+                            </dl>
+                            <dl class="width-3">
+                                <dt>看电影</dt>
+                                <dd>热映电影</dd>
+                                <dd>热门影院</dd>
+                                <dd>热映电影口碑榜</dd>
+                                <dd>最受期待电影</dd>
+                                <dd>国内票房榜</dd>
+                                <dd>北美票房榜</dd>
+                                <dd>电影排行榜</dd>
+                            </dl>
+                            <div class="width-4">
+                                <p class="mobile-app">手机应用</p>
+                                <a href="" title="美团app"><img src="images/mobile-app-1.jpg"></a>
+                                <a href="" title="外卖app"><img src="images/mobile-app-2.jpg"></a>
+                                <a href="" title="榛果app"><img src="images/mobile-app-3.jpg"></a>
+                                <a href="" title="点评app"><img src="images/mobile-app-4.jpg"></a>
+                                <a href="" title="猫眼app"><img src="images/mobile-app-5.jpg"></a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--搜索-->
+    <div class="bg-white">
+        <div class="search sec1190">
+        <!--<img src="slices/2.logo.gif">-->
+        <!--美团logo-->
+        <div class="logo f-left">
+            <a href=""><img src="images/meituan.logo.jpg"></a>
+        </div>
+        <!--搜索框-->
+        <div class="search-input f-left">
+            <input id="search-input" type="text" placeholder="搜索商家或地点">
+            <button type="button" class="search-btn"><span class="search-icon"></span></button>
+            <dl class="search-history" id="search-history">
+                <dt>热门搜索</dt>
+                <dd><a href="">汤山一号温泉</a></dd>
+                <dd><a href="">汤山紫清湖旅游区森林温泉</a></dd>
+                <dd><a href="">舌尚世纪缘</a></dd>
+                <dd><a href="">南京总统府</a></dd>
+            </dl>
+            <div class="search-hotword">
+                <a href="">汤山一号温泉</a>
+                <a href="">汤山紫清湖旅游区森林温泉</a>
+                <a href="">舌尚世纪缘-</a>
+                <a href="">南京总统府</a>
+                <a href="">多伦多海鲜自助餐厅</a>
+            </div>
+        </div>
+        <!--承诺保证-->
+        <a class="service-promise f-right">
+            <ul>
+                <li class="promise-item">
+                    <i class="promise-item-icon icon-tui"></i>
+                    <span>随时退</span>
+                </li>
+                <li class="promise-item">
+                    <i class="promise-item-icon icon-free"></i>
+                    <span>不满意免单</span>
+                </li>
+                <li class="promise-item">
+                    <i class="promise-item-icon icon-tui2"></i>
+                    <span>过期退</span>
+                </li>
+            </ul>
+        </a>
+    </div>
+    </div>
+    <!--导航栏-->
+    <div class="bg-white">
+        <div class="nav sec1190">
+            <!--<img src="slices/3.nav.gif">-->
+            <span class="nav-title">全部分类</span>
+            <ul class="nav-linklists">
+                <li><a href="">美团外卖</a></li>
+                <li><a href="">猫眼电影</a></li>
+                <li><a href="">美团酒店</a></li>
+                <li><a href="">商家入驻</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--类目栏-->
+    <div class="bg-lgray">
+        <div class="category-box sec1190">
+            <div class="category-list f-left">
+                <ul id="categoryList">
+                    <li><i class="category-icon-front icon-food"></i><a href="">美食</a><i class="right-row"></i></li>
+                    <li><i class="category-icon-front icon-waimai"></i><a href="">外卖</a><i class="right-row"></i></li>
+                    <li><i class="category-icon-front icon-hotel"></i><a href="">酒店</a><i class="right-row"></i></li>
+                    <li><i class="category-icon-front icon-zhenguo"></i><a href="">榛果民宿</a><i class="right-row"></i></li>
+                    <li><i class="category-icon-front icon-maoyan"></i><a href="">猫眼电影</a><i class="right-row"></i></li>
+                    <li><i class="category-icon-front icon-ticket"></i><a href="">机票 / 火车票</a><i class="right-row"></i></li>
+                    <li><i class="category-icon-front icon-ktv"></i><a href="">休闲娱乐 / KTV</a><i class="right-row"></i></li>
+                    <li><i class="category-icon-front icon-service"></i><a href="">生活服务</a><i class="right-row"></i></li>
+                    <li><i class="category-icon-front icon-beauty"></i><a href="">丽人 / 美发 / 医学美容</a><i class="right-row"></i></li>
+                    <li><i class="category-icon-front icon-marry"></i><a href="">结婚 / 婚纱摄影 / 婚宴</a><i class="right-row"></i></li>
+                    <li><i class="category-icon-front icon-children"></i><a href="">亲子 / 儿童乐园 / 幼教</a><i class="right-row"></i></li>
+                    <li><i class="category-icon-front icon-gym"></i><a href="">运动 / 健身 / 健身中心</a><i class="right-row"></i></li>
+                    <li><i class="category-icon-front icon-furnishing"></i><a href="">家装 / 建材 / 家居</a><i class="right-row"></i></li>
+                    <li><i class="category-icon-front icon-train"></i><a href="">学习培训 / 音乐培训</a><i class="right-row"></i></li>
+                    <li><i class="category-icon-front icon-medical"></i><a href="">医疗健康 / 宠物 / 爱车</a><i class="right-row"></i></li>
+                    <li><i class="category-icon-front icon-bar"></i><a href="">酒吧 / 密室逃脱</a><i class="right-row"></i></li>
+                </ul>
+            </div>
+            <div id="categoryListItem">
+                <dl class="category-list-item">
+                    <div class="category-list-item-header">
+                        <dt><a href="">美食</a></dt>
+                        <span class="more">
+                            <a href="" class="c-lgray">更多></a>
+                        </span>
+                    </div>
+                    <dd><a href="">代金券</a></dd>
+                    <dd><a href="">甜点饮品</a></dd>
+                    <dd><a href="">火锅</a></dd>
+                    <dd><a href="">自助餐</a></dd>
+                    <dd><a href="">小吃快餐</a></dd>
+                    <dd><a href="">日韩料理</a></dd>
+                    <dd><a href="">西餐</a></dd>
+                    <dd><a href="">聚餐宴请</a></dd>
+                    <dd><a href="">烧烤烤肉</a></dd>
+                    <dd><a href="">东北菜</a></dd>
+                    <dd><a href="">川湘菜</a></dd>
+                    <dd><a href="">江浙菜</a></dd>
+                    <dd><a href="">香锅烤鱼</a></dd>
+                    <dd><a href="">粤港菜</a></dd>
+                    <dd><a href="">中式烧烤/烤串</a></dd>
+                    <dd><a href="">西北菜</a></dd>
+                    <dd><a href="">咖啡酒吧茶馆</a></dd>
+                    <dd><a href="">云贵菜</a></dd>
+                    <dd><a href="">东南亚菜</a></dd>
+                    <dd><a href="">海鲜</a></dd>
+                    <dd><a href="">素食</a></dd>
+                    <dd><a href="">台湾/客家菜</a></dd>
+                    <dd><a href="">创意菜</a></dd>
+                    <dd><a href="">汤/粥/炖菜</a></dd>
+                    <dd><a href="">蒙餐</a></dd>
+                    <dd><a href="">新疆菜</a></dd>
+                    <dd><a href="">其他美食</a></dd>
+                    <dd><a href="">京菜鲁菜</a></dd>
+                </dl>
+                <dl class="category-list-item">
+                        <div class="category-list-item-header">
+                            <dt><a href="">外卖</a></dt>
+                        <span class="more">
+                            <a href="" class="c-lgray">更多></a>
+                        </span>
+                        </div>
+                        <dd><a href="">美团外卖</a></dd>
+                    </dl>
+                <dl class="category-list-item">
+                    <div class="category-list-item-header">
+                        <dt><a href="">酒店星级</a></dt>
+                        <span class="more">
+                            <a href="" class="c-lgray">更多></a>
+                        </span>
+                    </div>
+                    <dd><a href="">经济型</a></dd>
+                    <dd><a href="">舒适/三星</a></dd>
+                    <dd><a href="">高档/四星</a></dd>
+                    <dd><a href="">豪华/五星</a></dd>
+                </dl>
+                <dl class="category-list-item">
+                    <div class="category-list-item-header">
+                        <dt><a href="">热门城市</a></dt>
+                        <span class="more">
+                            <a href="" class="c-lgray">更多></a>
+                        </span>
+                    </div>
+                    <dd><a href="">上海</a></dd>
+                    <dd><a href="">成都</a></dd>
+                    <dd><a href="">北京</a></dd>
+                    <dd><a href="">重庆</a></dd>
+                    <dd><a href="">南京</a></dd>
+                    <dd><a href="">杭州</a></dd>
+                    <dd><a href="">广州</a></dd>
+                    <dd><a href="">西安</a></dd>
+                    <dd><a href="">大连</a></dd>
+                </dl>
+                <dl class="category-list-item">
+                    <div class="category-list-item-header">
+                        <dt><a href="">热映电影</a></dt>
+                        <span class="more">
+                            <a href="" class="c-lgray">更多></a>
+                        </span>
+                    </div>
+                    <dd><a href="">妖铃铃前任3：再见前任</a></dd>
+                    <dd><a href="">二代妖精之今生有幸</a></dd>
+                    <dd><a href="">芳华</a></dd>
+                    <dd><a href="">解忧杂货店</a></dd>
+                    <dd><a href="">星球大战：最后的绝地武士</a></dd>
+                    <dd><a href="">妖猫传</a></dd>
+                    <dd><a href="">寻梦环游记</a></dd>
+                    <dd><a href="">小猫巴克里</a></dd>
+                    <dd><a href="">咕噜咕噜美人鱼2</a></dd>
+                </dl>
+                <dl class="category-list-item">
+                    <div class="category-list-item-header">
+                        <dt><a href="">机票</a></dt>
+                        <span class="more">
+                            <a href="" class="c-lgray">更多></a>
+                        </span>
+                    </div>
+                    <dd><a href="">国际/港澳台机票</a></dd>
+                    <div class="category-list-item-header margin-top20">
+                        <dt><a href="">机票</a></dt>
+                        <span class="more">
+                            <a href="" class="c-lgray">更多></a>
+                        </span>
+                    </div>
+                    <dd><a href="">国际/港澳台机票</a></dd>
+                </dl>
+                <dl class="category-list-item">
+                    <div class="category-list-item-header">
+                        <dt><a href="">休闲娱乐</a></dt>
+                        <span class="more">
+                            <a href="" class="c-lgray">更多></a>
+                        </span>
+                    </div>
+                    <dd><a href="">足疗按摩</a></dd>
+                    <dd><a href="">洗浴/汗蒸</a></dd>
+                    <dd><a href="">酒吧</a></dd>
+                    <dd><a href="">密室逃脱</a></dd>
+                    <dd><a href="">轰趴馆</a></dd>
+                    <dd><a href="">茶馆</a></dd>
+                    <dd><a href="">私人影院</a></dd>
+                    <dd><a href="">DIY手工坊</a></dd>
+                    <dd><a href="">采摘/农家乐</a></dd>
+                    <dd><a href="">网吧网咖</a></dd>
+                    <dd><a href="">游乐游艺</a></dd>
+                    <dd><a href="">VR</a></dd>
+                    <dd><a href="">桌面游戏</a></dd>
+                    <dd><a href="">真人CS</a></dd>
+                    <dd><a href="">棋牌室</a></dd>
+                    <dd><a href="">其他玩乐</a></dd>
+                    <div class="category-list-item-header margin-top20">
+                        <dt><a href="">KTV</a></dt>
+                        <span class="more">
+                            <a href="" class="c-lgray">更多></a>
+                        </span>
+                    </div>
+                    <dd><a href="">KTV</a></dd>
+                </dl>
+                <dl class="category-list-item">
+                    <div class="category-list-item-header">
+                        <dt><a href="">生活服务</a></dt>
+                        <span class="more">
+                            <a href="" class="c-lgray">更多></a>
+                        </span>
+                    </div>
+                    <dd><a href="">衣物/皮具洗护</a></dd>
+                    <dd><a href="">家政</a></dd>
+                    <dd><a href="">搬家运输</a></dd>
+                    <dd><a href="">送</a></dd>
+                    <dd><a href="">充值缴费</a></dd>
+                    <dd><a href="">服饰/鞋包养护</a></dd>
+                    <dd><a href="">开锁换锁</a></dd>
+                    <dd><a href="">居家维修</a></dd>
+                    <dd><a href="">管道疏通</a></dd>
+                    <dd><a href="">家电维修清洗</a></dd>
+                    <dd><a href="">电脑维修</a></dd>
+                    <dd><a href="">手机维修</a></dd>
+                    <dd><a href="">证件照/肖像摄影</a></dd>
+                    <dd><a href="">照片冲印/图文文印</a></dd>
+                    <dd><a href="">商务服务/法律服务</a></dd>
+                    <dd><a href="">文化传媒机构</a></dd>
+                    <dd><a href="">成人用品/情趣用品</a></dd>
+                </dl>
+                <dl class="category-list-item">
+                    <div class="category-list-item-header">
+                        <dt><a href="">丽人</a></dt>
+                        <span class="more">
+                            <a href="" class="c-lgray">更多></a>
+                        </span>
+                    </div>
+                    <dd><a href="">美发</a></dd>
+                    <dd><a href="">美甲美睫</a></dd>
+                    <dd><a href="">美容美体</a></dd>
+                    <dd><a href="">医学美容</a></dd>
+                    <dd><a href="">瑜伽舞蹈</a></dd>
+                    <dd><a href="">瘦身纤体</a></dd>
+                    <dd><a href="">韩式定妆</a></dd>
+                    <dd><a href="">祛痘</a></dd>
+                    <dd><a href="">纹身</a></dd>
+                    <dd><a href="">化妆品</a></dd>
+                </dl>
+                <dl class="category-list-item">
+                    <div class="category-list-item-header">
+                        <dt><a href="">结婚</a></dt>
+                        <span class="more">
+                            <a href="" class="c-lgray">更多></a>
+                        </span>
+                    </div>
+                    <dd><a href="">婚纱摄影</a></dd>
+                    <dd><a href="">旅拍</a></dd>
+                    <dd><a href="">个性写真</a></dd>
+                    <dd><a href="">婚宴</a></dd>
+                    <dd><a href="">婚庆公司</a></dd>
+                    <dd><a href="">婚纱礼服</a></dd>
+                    <dd><a href="">西服定制</a></dd>
+                    <dd><a href="">婚戒首饰</a></dd>
+                    <dd><a href="">婚车租赁</a></dd>
+                    <dd><a href="">司仪主持</a></dd>
+                    <dd><a href="">彩妆造型</a></dd>
+                    <dd><a href="">婚礼跟拍</a></dd>
+                    <dd><a href="">婚礼小礼品</a></dd>
+                    <dd><a href="">更多婚礼服务</a></dd>
+                </dl>
+                <dl class="category-list-item">
+                    <div class="category-list-item-header">
+                        <dt><a href="">儿童乐园</a></dt>
+                        <span class="more">
+                            <a href="" class="c-lgray">更多></a>
+                        </span>
+                    </div>
+                    <dd><a href="">婴儿游泳</a></dd>
+                    <dd><a href="">其它亲子游乐</a></dd>
+                    <div class="category-list-item-header margin-top20">
+                        <dt><a href="">幼儿教育</a></dt>
+                        <span class="more">
+                            <a href="" class="c-lgray">更多></a>
+                        </span>
+                    </div>
+                    <dd><a href="">早教中心</a></dd>
+                    <dd><a href="">少儿英语</a></dd>
+                    <dd><a href="">智力开发</a></dd>
+                    <dd><a href="">托班/幼儿园</a></dd>
+                    <dd><a href="">幼儿教育</a></dd>
+                    <dd><a href="">其他幼儿教育</a></dd>
+                    <div class="category-list-item-header margin-top20">
+                        <dt><a href="">亲子摄影</a></dt>
+                        <span class="more">
+                            <a href="" class="c-lgray">更多></a>
+                        </span>
+                    </div>
+                    <dd><a href="">儿童摄影</a></dd>
+                    <dd><a href="">孕妇写真</a></dd>
+                    <dd><a href="">上门拍</a></dd>
+                    <dd><a href="">其他亲子摄影</a></dd>
+                    <div class="category-list-item-header margin-top20">
+                        <dt><a href="">孕产护理</a></dt>
+                        <span class="more">
+                            <a href="" class="c-lgray">更多></a>
+                        </span>
+                    </div>
+                    <dd><a href="">月子会所</a></dd>
+                    <dd><a href="">产后恢复</a></dd>
+                    <dd><a href="">妇幼医院</a></dd>
+                    <dd><a href="">孕产用品</a></dd>
+                    <dd><a href="">开奶催乳</a></dd>
+                    <dd><a href="">月嫂</a></dd>
+                    <dd><a href="">亲子购物</a></dd>
+                    <dd><a href="">宝宝派对</a></dd>
+                    <dd><a href="">亲子服务</a></dd>
+                </dl>
+                <dl class="category-list-item">
+                    <div class="category-list-item-header">
+                        <dt><a href="">运动健身</a></dt>
+                        <span class="more">
+                            <a href="" class="c-lgray">更多></a>
+                        </span>
+                    </div>
+                    <dd><a href="">健身中心</a></dd>
+                    <dd><a href="">武术场馆</a></dd>
+                    <dd><a href="">游泳馆</a></dd>
+                    <dd><a href="">羽毛球馆</a></dd>
+                    <dd><a href="">溜冰场</a></dd>
+                    <dd><a href="">射箭馆</a></dd>
+                    <dd><a href="">篮球场</a></dd>
+                    <dd><a href="">网球馆</a></dd>
+                    <dd><a href="">台球馆</a></dd>
+                    <dd><a href="">乒乓球</a></dd>
+                    <dd><a href="">足球场</a></dd>
+                    <dd><a href="">高尔夫场</a></dd>
+                    <dd><a href="">保龄球馆</a></dd>
+                    <dd><a href="">体育场馆</a></dd>
+                    <dd><a href="">马术场</a></dd>
+                    <dd><a href="">壁球馆</a></dd>
+                    <dd><a href="">更多运动</a></dd>
+                </dl>
+                <dl class="category-list-item">
+                    <div class="category-list-item-header">
+                        <dt><a href="">装修设计</a></dt>
+                        <span class="more">
+                            <a href="" class="c-lgray">更多></a>
+                        </span>
+                    </div>
+                    <dd><a href="">半包装修</a></dd>
+                    <dd><a href="">全包装修</a></dd>
+                    <dd><a href="">清包装修</a></dd>
+                    <div class="category-list-item-header margin-top20">
+                        <dt><a href="">装修建材</a></dt>
+                        <span class="more">
+                            <a href="" class="c-lgray">更多></a>
+                        </span>
+                    </div>
+                    <dd><a href="">地板</a></dd>
+                    <dd><a href="">瓷砖石材</a></dd>
+                    <dd><a href="">橱柜</a></dd>
+                    <dd><a href="">灯饰照明</a></dd>
+                    <dd><a href="">厨卫洁具</a></dd>
+                    <dd><a href="">油漆涂料</a></dd>
+                    <dd><a href="">集成吊顶</a></dd>
+                    <dd><a href="">墙纸墙艺</a></dd>
+                    <dd><a href="">门窗</a></dd>
+                    <dd><a href="">木材板材</a></dd>
+                    <dd><a href="">家用五金</a></dd>
+                    <dd><a href="">电工电料</a></dd>
+                    <dd><a href="">楼梯</a></dd>
+                    <dd><a href="">管材管件</a></dd>
+                    <div class="category-list-item-header margin-top20">
+                        <dt><a href="">家具家居</a></dt>
+                        <span class="more">
+                            <a href="" class="c-lgray">更多></a>
+                        </span>
+                    </div>
+                    <dd><a href="">家具</a></dd>
+                    <dd><a href="">床上用品/家纺</a></dd>
+                    <dd><a href="">家居饰品</a></dd>
+                    <dd><a href="">厨具餐具</a></dd>
+                    <dd><a href="">智能家居</a></dd>
+                    <div class="category-list-item-header margin-top20">
+                        <dt><a href="">家装卖场</a></dt>
+                        <span class="more">
+                            <a href="" class="c-lgray">更多></a>
+                        </span>
+                    </div>
+                    <dd><a href="">建材卖场</a></dd>
+                    <dd><a href="">家居卖场</a></dd>
+                    <dd><a href="">灯饰卖场</a></dd>
+
+                </dl>
+                <dl class="category-list-item">
+                    <div class="category-list-item-header">
+                        <dt><a href="">音乐培训</a></dt>
+                        <span class="more">
+                            <a href="" class="c-lgray">更多></a>
+                        </span>
+                    </div>
+                    <dd><a href="">钢琴</a></dd>
+                    <dd><a href="">吉他</a></dd>
+                    <dd><a href="">小提琴</a></dd>
+                    <dd><a href="">古筝</a></dd>
+                    <dd><a href="">架子鼓</a></dd>
+                    <dd><a href="">声乐</a></dd>
+                    <dd><a href="">其他音乐培训</a></dd>
+                    <div class="category-list-item-header margin-top20">
+                        <dt><a href="">职业技术</a></dt>
+                        <span class="more">
+                            <a href="" class="c-lgray">更多></a>
+                        </span>
+                    </div>
+                    <dd><a href="">美容化妆</a></dd>
+                    <dd><a href="">会计</a></dd>
+                    <dd><a href="">IT</a></dd>
+                    <dd><a href="">厨艺</a></dd>
+                    <dd><a href="">管理培训</a></dd>
+                    <dd><a href="">摄影培训</a></dd>
+                    <dd><a href="">司法考试</a></dd>
+                    <dd><a href="">公务员培训</a></dd>
+                    <dd><a href="">其他职业培训</a></dd>
+                    <div class="category-list-item-header margin-top20">
+                        <dt><a href="">外语培训</a></dt>
+                        <span class="more">
+                            <a href="" class="c-lgray">更多></a>
+                        </span>
+                    </div>
+                    <dd><a href="">英语</a></dd>
+                    <dd><a href="">日语</a></dd>
+                    <dd><a href="">韩语</a></dd>
+                    <dd><a href="">法语</a></dd>
+                    <dd><a href="">德语</a></dd>
+                    <dd><a href="">汉语</a></dd>
+                    <dd><a href="">俄语</a></dd>
+                    <dd><a href="">西班牙语</a></dd>
+                    <dd><a href="">其他外语</a></dd>
+                    <div class="category-list-item-header margin-top20">
+                        <dt><a href="">美术培训</a></dt>
+                        <span class="more">
+                            <a href="" class="c-lgray">更多></a>
+                        </span>
+                    </div>
+                    <dd><a href="">绘画</a></dd>
+                    <dd><a href="">书法</a></dd>
+                    <dd><a href="">其他美术</a></dd>
+                </dl>
+                <dl class="category-list-item">
+                    <div class="category-list-item-header">
+                        <dt><a href="">医疗健康</a></dt>
+                        <span class="more">
+                            <a href="" class="c-lgray">更多></a>
+                        </span>
+                    </div>
+                    <dd><a href="">医院</a></dd>
+                    <dd><a href="">齿科口腔</a></dd>
+                    <dd><a href="">体检中心</a></dd>
+                    <dd><a href="">药店</a></dd>
+                    <dd><a href="">中医</a></dd>
+                    <dd><a href="">其他健康服务</a></dd>
+                    <div class="category-list-item-header margin-top20">
+                        <dt><a href="">爱车</a></dt>
+                        <span class="more">
+                            <a href="" class="c-lgray">更多></a>
+                        </span>
+                    </div>
+                    <dd><a href="">洗车</a></dd>
+                    <dd><a href="">租车</a></dd>
+                    <dd><a href="">加油站</a></dd>
+                    <dd><a href="">维修保养</a></dd>
+                    <dd><a href="">驾校</a></dd>
+                    <dd><a href="">汽车美容</a></dd>
+                    <dd><a href="">陪练</a></dd>
+                    <dd><a href="">汽车用品</a></dd>
+                    <dd><a href="">停车场</a></dd>
+                    <dd><a href="">汽车保险</a></dd>
+                    <dd><a href="">4S店/汽车销售</a></dd>
+                    <dd><a href="">更多汽车服务</a></dd>
+                    <dd><a href="">机油保养</a></dd>
+                    <dd><a href="">汽车报价</a></dd>
+                    <dd><a href="">二手车</a></dd>
+                    <dd><a href="">广告驾校</a></dd>
+                    <dd><a href="">交警队</a></dd>
+                    <dd><a href="">汽车改装</a></dd>
+                    <dd><a href="">汽车配件</a></dd>
+                    <div class="category-list-item-header margin-top20">
+                        <dt><a href="">宠物</a></dt>
+                        <span class="more">
+                            <a href="" class="c-lgray">更多></a>
+                        </span>
+                    </div>
+                    <dd><a href="">宠物店</a></dd>
+                    <dd><a href="">宠物医院</a></dd>
+                </dl>
+                <dl class="category-list-item">
+                    <div class="category-list-item-header">
+                        <dt><a href="">玩乐</a></dt>
+                        <span class="more">
+                            <a href="" class="c-lgray">更多></a>
+                        </span>
+                    </div>
+                    <dd><a href="">KTV</a></dd>
+                    <dd><a href="">酒吧</a></dd>
+                    <dd><a href="">密室逃脱</a></dd>
+                    <dd><a href="">游乐游艺</a></dd>
+                    <dd><a href="">网吧网咖</a></dd>
+                    <dd><a href="">私人影院</a></dd>
+                    <dd><a href="">DIY手工坊</a></dd>
+                    <dd><a href="">桌面游戏</a></dd>
+                    <dd><a href="">采摘/农家乐</a></dd>
+                    <dd><a href="">棋牌室</a></dd>
+                    <dd><a href="">轰趴馆</a></dd>
+                    <dd><a href="">真人CS</a></dd>
+                    <dd><a href="">VR</a></dd>
+                    <dd><a href="">其他玩乐</a></dd>
+                </dl>
+            </div>
+            <div class="category-slide-row category-slide-row-1">
+                <div class="category-carousel" id="category-carousel">
+                    <ul id="carousel">
+                        <li>
+                            <a href="" class="carousel-item-1"></a>
+                        </li>
+                        <li>
+                            <a href="" class="carousel-item-2"></a>
+                        </li>
+                        <li>
+                            <a href="" class="carousel-item-3"></a>
+                        </li>
+                        <li>
+                            <a href="" class="carousel-item-4"></a>
+                        </li>
+                        <li>
+                            <a href="" class="carousel-item-1"></a>
+                        </li>
+                    </ul>
+                    <div class="btn-pre" id="btn-pre">
+                        <i class="icon-btn-left"></i>
+                    </div>
+                    <div class="btn-next" id="btn-next">
+                        <i class="icon-btn-right"></i>
+                    </div>
+                </div>
+                <div class="slider-item-1"><a href=""><img src="./images/category-slide-1.png"></a></div>
+                <div class="slider-user-enter">
+                    <div class=".slider-user-enter-icon"><img src="images/user-enter.png"></div>
+                    <p class="user-welcome">Hi ! 你好</p>
+                    <a href="" class="user-enter-btn">注册</a>
+                    <a href="" class="user-enter-btn">立即登录</a>
+                </div>
+            </div>
+            <div class="category-slide-row category-slide-row-2">
+                <a href="" class="slider-item-2"><img src="images/category-slide-2.png"></a>
+                <a href="" class="slider-item-3"><img src="images/category-slide-3.png"></a>
+                <a href="" class="slider-item-1"><img src="images/category-slide-4.png"></a>
+                <div class="meituan-app-mobile">
+                    <div class="slider-2D-code">
+                        <img src="images/2D-code.png">
+                    </div>
+                    <p class="app-name">美团APP手机版</p>
+                    <p class="s1">
+                        <span class="c-red">1元起</span>
+                        <span> 吃喝玩乐</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--有格调选项卡-->
+    <div class="bg-lgray">
+        <div class="quality-box sec1190">
+        <div class="quality">
+            <dl class="quality-list" id="quality-list">
+                <dt>有格调</dt>
+                <dd class="active">全部</dd>
+                <dd>约会聚餐</dd>
+                <dd>丽人SPA</dd>
+                <dd>电影演出</dd>
+                <dd>品质出游</dd>
+            </dl>
+            <div class="quality-item" id="quality-item">
+                <ul>
+                    <li>
+                        <a href="">
+                            <img src="images/gediao-all-item-1.png">
+                            <p class="quality-item-title">华夏国际影城（金宁乐活城店）</p>
+                            <p class="quality-item-info">免押金，可停车，有情侣座，儿童票，可刷卡，有WIFI，休息区</p>
+                            <p class="quality-item-price">
+                                <span class="price-symbol">¥</span>
+                                <span class="current-price">19.9</span>/人均
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/gediao-all-item-2.png">
+                            <p class="quality-item-title">南京玄武湖假日酒店</p>
+                            <p class="quality-item-info">亲子酒店 房量充足 老客全网底价 新客全网低价</p>
+                            <p class="quality-item-price">
+                                <span class="price-symbol">¥</span>
+                                <span class="current-price">598</span>/人均
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/gediao-all-item-3.png">
+                            <p class="quality-item-title">华夏国际影城</p>
+                            <p class="quality-item-info">免押金，可停车，有情侣座，儿童票，可刷卡，有WIFI，休息区</p>
+                            <p class="quality-item-price">
+                                <span class="price-symbol">¥</span>
+                                <span class="current-price">29.9</span>/人均
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/gediao-all-item-4.png">
+                            <p class="quality-item-title">维元国际酒店</p>
+                            <p class="quality-item-info">免押金，可停车，有情侣座，儿童票，可刷卡，有WIFI，休息区</p>
+                            <p class="quality-item-price">
+                                <span class="price-symbol">¥</span>
+                                <span class="current-price">299</span>/人均
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/gediao-all-item-5.png">
+                            <p class="quality-item-title">简SKIN科技护肤中心</p>
+                            <p class="quality-item-info">简SKIN科技护肤中心</p>
+                            <p class="quality-item-price">
+                                <span class="price-symbol">¥</span>
+                                <span class="current-price">269</span>/人均
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/gediao-all-item-6.png">
+                            <p class="quality-item-title">多伦多海鲜自助</p>
+                            <p class="quality-item-info">有WIFI，海鲜吃个够</p>
+                            <p class="quality-item-price">
+                                <span class="price-symbol">¥</span>
+                                <span class="current-price">109</span>/人均
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="">
+                            <img src="images/gediao-dating-item-1.png">
+                            <p class="quality-item-title">华夏国际影城（金宁乐活城店）</p>
+                            <p class="quality-item-info">免押金，可停车，有情侣座，儿童票，可刷卡，有WIFI，休息区</p>
+                            <p class="quality-item-price">
+                                <span class="price-symbol">¥</span>
+                                <span class="current-price">19.9</span>/人均
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/gediao-dating-item-2.png">
+                            <p class="quality-item-title">南京玄武湖假日酒店</p>
+                            <p class="quality-item-info">亲子酒店 房量充足 老客全网底价 新客全网低价</p>
+                            <p class="quality-item-price">
+                                <span class="price-symbol">¥</span>
+                                <span class="current-price">598</span>/人均
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/gediao-dating-item-3.png">
+                            <p class="quality-item-title">华夏国际影城</p>
+                            <p class="quality-item-info">免押金，可停车，有情侣座，儿童票，可刷卡，有WIFI，休息区</p>
+                            <p class="quality-item-price">
+                                <span class="price-symbol">¥</span>
+                                <span class="current-price">29.9</span>/人均
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/gediao-dating-item-4.png">
+                            <p class="quality-item-title">维元国际酒店</p>
+                            <p class="quality-item-info">免押金，可停车，有情侣座，儿童票，可刷卡，有WIFI，休息区</p>
+                            <p class="quality-item-price">
+                                <span class="price-symbol">¥</span>
+                                <span class="current-price">299</span>/人均
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/gediao-dating-item-5.png">
+                            <p class="quality-item-title">简SKIN科技护肤中心</p>
+                            <p class="quality-item-info">简SKIN科技护肤中心</p>
+                            <p class="quality-item-price">
+                                <span class="price-symbol">¥</span>
+                                <span class="current-price">269</span>/人均
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/gediao-dating-item-6.png">
+                            <p class="quality-item-title">多伦多海鲜自助</p>
+                            <p class="quality-item-info">有WIFI，海鲜吃个够</p>
+                            <p class="quality-item-price">
+                                <span class="price-symbol">¥</span>
+                                <span class="current-price">109</span>/人均
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="">
+                            <img src="images/gediao-beauty-item-1.png">
+                            <p class="quality-item-title">华夏国际影城（金宁乐活城店）</p>
+                            <p class="quality-item-info">免押金，可停车，有情侣座，儿童票，可刷卡，有WIFI，休息区</p>
+                            <p class="quality-item-price">
+                                <span class="price-symbol">¥</span>
+                                <span class="current-price">19.9</span>/人均
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/gediao-beauty-item-2.png">
+                            <p class="quality-item-title">南京玄武湖假日酒店</p>
+                            <p class="quality-item-info">亲子酒店 房量充足 老客全网底价 新客全网低价</p>
+                            <p class="quality-item-price">
+                                <span class="price-symbol">¥</span>
+                                <span class="current-price">598</span>/人均
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/gediao-beauty-item-3.png">
+                            <p class="quality-item-title">华夏国际影城</p>
+                            <p class="quality-item-info">免押金，可停车，有情侣座，儿童票，可刷卡，有WIFI，休息区</p>
+                            <p class="quality-item-price">
+                                <span class="price-symbol">¥</span>
+                                <span class="current-price">29.9</span>/人均
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/gediao-beauty-item-4.png">
+                            <p class="quality-item-title">维元国际酒店</p>
+                            <p class="quality-item-info">免押金，可停车，有情侣座，儿童票，可刷卡，有WIFI，休息区</p>
+                            <p class="quality-item-price">
+                                <span class="price-symbol">¥</span>
+                                <span class="current-price">299</span>/人均
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/gediao-beauty-item-5.png">
+                            <p class="quality-item-title">简SKIN科技护肤中心</p>
+                            <p class="quality-item-info">简SKIN科技护肤中心</p>
+                            <p class="quality-item-price">
+                                <span class="price-symbol">¥</span>
+                                <span class="current-price">269</span>/人均
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/gediao-beauty-item-6.png">
+                            <p class="quality-item-title">多伦多海鲜自助</p>
+                            <p class="quality-item-info">有WIFI，海鲜吃个够</p>
+                            <p class="quality-item-price">
+                                <span class="price-symbol">¥</span>
+                                <span class="current-price">109</span>/人均
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="">
+                            <img src="images/gediao-film-item-1.png">
+                            <p class="quality-item-title">华夏国际影城（金宁乐活城店）</p>
+                            <p class="quality-item-info">免押金，可停车，有情侣座，儿童票，可刷卡，有WIFI，休息区</p>
+                            <p class="quality-item-price">
+                                <span class="price-symbol">¥</span>
+                                <span class="current-price">19.9</span>/人均
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/gediao-film-item-2.png">
+                            <p class="quality-item-title">南京玄武湖假日酒店</p>
+                            <p class="quality-item-info">亲子酒店 房量充足 老客全网底价 新客全网低价</p>
+                            <p class="quality-item-price">
+                                <span class="price-symbol">¥</span>
+                                <span class="current-price">598</span>/人均
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/gediao-film-item-3.png">
+                            <p class="quality-item-title">华夏国际影城</p>
+                            <p class="quality-item-info">免押金，可停车，有情侣座，儿童票，可刷卡，有WIFI，休息区</p>
+                            <p class="quality-item-price">
+                                <span class="price-symbol">¥</span>
+                                <span class="current-price">29.9</span>/人均
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/gediao-film-item-4.png">
+                            <p class="quality-item-title">维元国际酒店</p>
+                            <p class="quality-item-info">免押金，可停车，有情侣座，儿童票，可刷卡，有WIFI，休息区</p>
+                            <p class="quality-item-price">
+                                <span class="price-symbol">¥</span>
+                                <span class="current-price">299</span>/人均
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/gediao-film-item-5.png">
+                            <p class="quality-item-title">简SKIN科技护肤中心</p>
+                            <p class="quality-item-info">简SKIN科技护肤中心</p>
+                            <p class="quality-item-price">
+                                <span class="price-symbol">¥</span>
+                                <span class="current-price">269</span>/人均
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/gediao-all-item-6.png">
+                            <p class="quality-item-title">多伦多海鲜自助</p>
+                            <p class="quality-item-info">有WIFI，海鲜吃个够</p>
+                            <p class="quality-item-price">
+                                <span class="price-symbol">¥</span>
+                                <span class="current-price">109</span>/人均
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="">
+                            <img src="images/gediao-travel-item-1.png">
+                            <p class="quality-item-title">华夏国际影城（金宁乐活城店）</p>
+                            <p class="quality-item-info">免押金，可停车，有情侣座，儿童票，可刷卡，有WIFI，休息区</p>
+                            <p class="quality-item-price">
+                                <span class="price-symbol">¥</span>
+                                <span class="current-price">19.9</span>/人均
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/gediao-travel-item-2.png">
+                            <p class="quality-item-title">南京玄武湖假日酒店</p>
+                            <p class="quality-item-info">亲子酒店 房量充足 老客全网底价 新客全网低价</p>
+                            <p class="quality-item-price">
+                                <span class="price-symbol">¥</span>
+                                <span class="current-price">598</span>/人均
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/gediao-travel-item-3.png">
+                            <p class="quality-item-title">华夏国际影城</p>
+                            <p class="quality-item-info">免押金，可停车，有情侣座，儿童票，可刷卡，有WIFI，休息区</p>
+                            <p class="quality-item-price">
+                                <span class="price-symbol">¥</span>
+                                <span class="current-price">29.9</span>/人均
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/gediao-travel-item-4.png">
+                            <p class="quality-item-title">维元国际酒店</p>
+                            <p class="quality-item-info">免押金，可停车，有情侣座，儿童票，可刷卡，有WIFI，休息区</p>
+                            <p class="quality-item-price">
+                                <span class="price-symbol">¥</span>
+                                <span class="current-price">299</span>/人均
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/gediao-travel-item-5.png">
+                            <p class="quality-item-title">简SKIN科技护肤中心</p>
+                            <p class="quality-item-info">简SKIN科技护肤中心</p>
+                            <p class="quality-item-price">
+                                <span class="price-symbol">¥</span>
+                                <span class="current-price">269</span>/人均
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/gediao-travel-item-6.png">
+                            <p class="quality-item-title">多伦多海鲜自助</p>
+                            <p class="quality-item-info">有WIFI，海鲜吃个够</p>
+                            <p class="quality-item-price">
+                                <span class="price-symbol">¥</span>
+                                <span class="current-price">109</span>/人均
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!--很优惠选项卡-->
+    <div class="bg-lgray">
+        <div class="discount-box sec1190">
+            <div class="discount">
+            <dl class="discount-list" id="discount-list">
+                <dt>狠优惠</dt>
+                <dd class="active">全部</dd>
+                <dd>美食</dd>
+                <dd>电影</dd>
+                <dd>休娱</dd>
+            </dl>
+            <div class="discount-item" id="discount-item">
+                <ul>
+                    <li>
+                        <a href="">
+                            <img src="images/discount-all-item-1.png">
+                            <p class="discount-item-title">华佑装饰工程有限公司（鼓楼店店）</p>
+                            <p class="discount-item-info">[鼓楼区]百平米239800立减10万</p>
+                            <p class="discount-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">1</span>
+                                </span>
+                                <span class="price-primary">门市价100000</span>
+                                <span class="sold">已售0</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/discount-all-item-2.png">
+                            <p class="discount-item-title">欧诺滋手感烘焙店</p>
+                            <p class="discount-item-info">[东山镇]100元代金券1张，仅限使用1张</p>
+                            <p class="discount-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">1</span>
+                                </span>
+                                <span class="price-primary">美团价100</span>
+                                <span class="sold">已售580</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/discount-all-item-3.png">
+                            <p class="discount-item-title">幸福蓝海国际影城(江宁金鹰店)</p>
+                            <p class="discount-item-info">寻梦环游记</p>
+                            <p class="discount-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">34</span>
+                                </span>
+                                <span class="price-primary">门市价¥80</span>
+                                <span class="sold">已售11.2万</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/discount-food-item-4.png">
+                            <p class="discount-item-title">辰美国际韩国护肤管理抗衰中心</p>
+                            <p class="discount-item-info">[六合区]纹绣半永久定妆培训</p>
+                            <p class="discount-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">0.1</span>
+                                </span>
+                                <span class="price-primary">门市价6800</span>
+                                <span class="sold">已售0</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/discount-food-item-5.png">
+                            <p class="discount-item-title">捞鱼客</p>
+                            <p class="discount-item-info">[浦口区]鮰鱼一斤，包间免费</p>
+                            <p class="discount-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">1</span>
+                                </span>
+                                <span class="price-primary">美团价32</span>
+                                <span class="sold">已售66</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/discount-food-item-6.png">
+                            <p class="discount-item-title">新街口国际影城(德基广场IMAX店)</p>
+                            <p class="discount-item-info">妖猫传</p>
+                            <p class="discount-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">34</span>
+                                </span>
+                                <span class="price-primary">门市价70</span>
+                                <span class="sold">已售3.8万</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/discount-food-item-7.png">
+                            <p class="discount-item-title">苹果装饰(南京总店)</p>
+                            <p class="discount-item-info">[秦淮区]老房拆除大礼包</p>
+                            <p class="discount-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">0.1</span>
+                                </span>
+                                <span class="price-primary">门市价6000</span>
+                                <span class="sold">已售0</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/discount-food-item-8.png">
+                            <p class="discount-item-title">重庆高老九火锅</p>
+                            <p class="discount-item-info">[艾尚天地/凯润新城]牛蛙1份，提供免费WiFi</p>
+                            <p class="discount-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">1</span>
+                                </span>
+                                <span class="price-primary">美团价18</span>
+                                <span class="sold">已售174</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/discount-food-item-9.png">
+                            <p class="discount-item-title">幸福蓝海IMAX影城（常发广场店）</p>
+                            <p class="discount-item-info">妖猫传</p>
+                            <p class="discount-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">39</span>
+                                </span>
+                                <span class="price-primary">门市价160</span>
+                                <span class="sold">已售3.8万</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/discount-food-item-10.png">
+                            <p class="discount-item-title">瑞林达装饰(新街口店)</p>
+                            <p class="discount-item-info">[新街口/金轮/五台山体育中心]岁末装修总动员</p>
+                            <p class="discount-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">0.1</span>
+                                </span>
+                                <span class="price-primary">门市价4999</span>
+                                <span class="sold">已售0</span>
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="">
+                            <img src="images/discount-food-item-1.png">
+                            <p class="discount-item-title">华佑装饰工程有限公司（鼓楼店店）</p>
+                            <p class="discount-item-info">[鼓楼区]百平米239800立减10万</p>
+                            <p class="discount-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">1</span>
+                                </span>
+                                <span class="price-primary">门市价100000</span>
+                                <span class="sold">已售0</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/discount-food-item-2.png">
+                            <p class="discount-item-title">欧诺滋手感烘焙店</p>
+                            <p class="discount-item-info">[东山镇]100元代金券1张，仅限使用1张</p>
+                            <p class="discount-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">1</span>
+                                </span>
+                                <span class="price-primary">美团价100</span>
+                                <span class="sold">已售580</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/discount-food-item-3.png">
+                            <p class="discount-item-title">幸福蓝海国际影城(江宁金鹰店)</p>
+                            <p class="discount-item-info">寻梦环游记</p>
+                            <p class="discount-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">34</span>
+                                </span>
+                                <span class="price-primary">门市价¥80</span>
+                                <span class="sold">已售11.2万</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/discount-food-item-4.png">
+                            <p class="discount-item-title">辰美国际韩国护肤管理抗衰中心</p>
+                            <p class="discount-item-info">[六合区]纹绣半永久定妆培训</p>
+                            <p class="discount-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">0.1</span>
+                                </span>
+                                <span class="price-primary">门市价6800</span>
+                                <span class="sold">已售0</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/discount-food-item-5.png">
+                            <p class="discount-item-title">捞鱼客</p>
+                            <p class="discount-item-info">[浦口区]鮰鱼一斤，包间免费</p>
+                            <p class="discount-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">1</span>
+                                </span>
+                                <span class="price-primary">美团价32</span>
+                                <span class="sold">已售66</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/discount-food-item-6.png">
+                            <p class="discount-item-title">新街口国际影城(德基广场IMAX店)</p>
+                            <p class="discount-item-info">妖猫传</p>
+                            <p class="discount-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">34</span>
+                                </span>
+                                <span class="price-primary">门市价70</span>
+                                <span class="sold">已售3.8万</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/discount-food-item-7.png">
+                            <p class="discount-item-title">苹果装饰(南京总店)</p>
+                            <p class="discount-item-info">[秦淮区]老房拆除大礼包</p>
+                            <p class="discount-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">0.1</span>
+                                </span>
+                                <span class="price-primary">门市价6000</span>
+                                <span class="sold">已售0</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/discount-food-item-8.png">
+                            <p class="discount-item-title">重庆高老九火锅</p>
+                            <p class="discount-item-info">[艾尚天地/凯润新城]牛蛙1份，提供免费WiFi</p>
+                            <p class="discount-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">1</span>
+                                </span>
+                                <span class="price-primary">美团价18</span>
+                                <span class="sold">已售174</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/discount-food-item-9.png">
+                            <p class="discount-item-title">幸福蓝海IMAX影城（常发广场店）</p>
+                            <p class="discount-item-info">妖猫传</p>
+                            <p class="discount-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">39</span>
+                                </span>
+                                <span class="price-primary">门市价160</span>
+                                <span class="sold">已售3.8万</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/discount-food-item-10.png">
+                            <p class="discount-item-title">瑞林达装饰(新街口店)</p>
+                            <p class="discount-item-info">[新街口/金轮/五台山体育中心]岁末装修总动员</p>
+                            <p class="discount-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">0.1</span>
+                                </span>
+                                <span class="price-primary">门市价4999</span>
+                                <span class="sold">已售0</span>
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="">
+                            <img src="images/discount-all-item-1.png">
+                            <p class="discount-item-title">华佑装饰工程有限公司（鼓楼店店）</p>
+                            <p class="discount-item-info">[鼓楼区]百平米239800立减10万</p>
+                            <p class="discount-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">1</span>
+                                </span>
+                                <span class="price-primary">门市价100000</span>
+                                <span class="sold">已售0</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/discount-all-item-2.png">
+                            <p class="discount-item-title">欧诺滋手感烘焙店</p>
+                            <p class="discount-item-info">[东山镇]100元代金券1张，仅限使用1张</p>
+                            <p class="discount-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">1</span>
+                                </span>
+                                <span class="price-primary">美团价100</span>
+                                <span class="sold">已售580</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/discount-all-item-3.png">
+                            <p class="discount-item-title">幸福蓝海国际影城(江宁金鹰店)</p>
+                            <p class="discount-item-info">寻梦环游记</p>
+                            <p class="discount-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">34</span>
+                                </span>
+                                <span class="price-primary">门市价¥80</span>
+                                <span class="sold">已售11.2万</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/discount-all-item-4.png">
+                            <p class="discount-item-title">辰美国际韩国护肤管理抗衰中心</p>
+                            <p class="discount-item-info">[六合区]纹绣半永久定妆培训</p>
+                            <p class="discount-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">0.1</span>
+                                </span>
+                                <span class="price-primary">门市价6800</span>
+                                <span class="sold">已售0</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/discount-all-item-5.png">
+                            <p class="discount-item-title">捞鱼客</p>
+                            <p class="discount-item-info">[浦口区]鮰鱼一斤，包间免费</p>
+                            <p class="discount-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">1</span>
+                                </span>
+                                <span class="price-primary">美团价32</span>
+                                <span class="sold">已售66</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/discount-all-item-6.png">
+                            <p class="discount-item-title">新街口国际影城(德基广场IMAX店)</p>
+                            <p class="discount-item-info">妖猫传</p>
+                            <p class="discount-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">34</span>
+                                </span>
+                                <span class="price-primary">门市价70</span>
+                                <span class="sold">已售3.8万</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/discount-all-item-7.png">
+                            <p class="discount-item-title">苹果装饰(南京总店)</p>
+                            <p class="discount-item-info">[秦淮区]老房拆除大礼包</p>
+                            <p class="discount-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">0.1</span>
+                                </span>
+                                <span class="price-primary">门市价6000</span>
+                                <span class="sold">已售0</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/discount-all-item-8.png">
+                            <p class="discount-item-title">重庆高老九火锅</p>
+                            <p class="discount-item-info">[艾尚天地/凯润新城]牛蛙1份，提供免费WiFi</p>
+                            <p class="discount-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">1</span>
+                                </span>
+                                <span class="price-primary">美团价18</span>
+                                <span class="sold">已售174</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/discount-all-item-9.png">
+                            <p class="discount-item-title">幸福蓝海IMAX影城（常发广场店）</p>
+                            <p class="discount-item-info">妖猫传</p>
+                            <p class="discount-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">39</span>
+                                </span>
+                                <span class="price-primary">门市价160</span>
+                                <span class="sold">已售3.8万</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/discount-all-item-10.png">
+                            <p class="discount-item-title">瑞林达装饰(新街口店)</p>
+                            <p class="discount-item-info">[新街口/金轮/五台山体育中心]岁末装修总动员</p>
+                            <p class="discount-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">0.1</span>
+                                </span>
+                                <span class="price-primary">门市价4999</span>
+                                <span class="sold">已售0</span>
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="">
+                            <img src="images/discount-all-item-1.png">
+                            <p class="discount-item-title">华佑装饰工程有限公司（鼓楼店店）</p>
+                            <p class="discount-item-info">[鼓楼区]百平米239800立减10万</p>
+                            <p class="discount-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">1</span>
+                                </span>
+                                <span class="price-primary">门市价100000</span>
+                                <span class="sold">已售0</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/discount-all-item-2.png">
+                            <p class="discount-item-title">欧诺滋手感烘焙店</p>
+                            <p class="discount-item-info">[东山镇]100元代金券1张，仅限使用1张</p>
+                            <p class="discount-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">1</span>
+                                </span>
+                                <span class="price-primary">美团价100</span>
+                                <span class="sold">已售580</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/discount-all-item-3.png">
+                            <p class="discount-item-title">幸福蓝海国际影城(江宁金鹰店)</p>
+                            <p class="discount-item-info">寻梦环游记</p>
+                            <p class="discount-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">34</span>
+                                </span>
+                                <span class="price-primary">门市价¥80</span>
+                                <span class="sold">已售11.2万</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/discount-all-item-4.png">
+                            <p class="discount-item-title">辰美国际韩国护肤管理抗衰中心</p>
+                            <p class="discount-item-info">[六合区]纹绣半永久定妆培训</p>
+                            <p class="discount-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">0.1</span>
+                                </span>
+                                <span class="price-primary">门市价6800</span>
+                                <span class="sold">已售0</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/discount-all-item-5.png">
+                            <p class="discount-item-title">捞鱼客</p>
+                            <p class="discount-item-info">[浦口区]鮰鱼一斤，包间免费</p>
+                            <p class="discount-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">1</span>
+                                </span>
+                                <span class="price-primary">美团价32</span>
+                                <span class="sold">已售66</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/discount-all-item-6.png">
+                            <p class="discount-item-title">新街口国际影城(德基广场IMAX店)</p>
+                            <p class="discount-item-info">妖猫传</p>
+                            <p class="discount-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">34</span>
+                                </span>
+                                <span class="price-primary">门市价70</span>
+                                <span class="sold">已售3.8万</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/discount-all-item-7.png">
+                            <p class="discount-item-title">苹果装饰(南京总店)</p>
+                            <p class="discount-item-info">[秦淮区]老房拆除大礼包</p>
+                            <p class="discount-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">0.1</span>
+                                </span>
+                                <span class="price-primary">门市价6000</span>
+                                <span class="sold">已售0</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/discount-all-item-8.png">
+                            <p class="discount-item-title">重庆高老九火锅</p>
+                            <p class="discount-item-info">[艾尚天地/凯润新城]牛蛙1份，提供免费WiFi</p>
+                            <p class="discount-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">1</span>
+                                </span>
+                                <span class="price-primary">美团价18</span>
+                                <span class="sold">已售174</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/discount-all-item-9.png">
+                            <p class="discount-item-title">幸福蓝海IMAX影城（常发广场店）</p>
+                            <p class="discount-item-info">妖猫传</p>
+                            <p class="discount-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">39</span>
+                                </span>
+                                <span class="price-primary">门市价160</span>
+                                <span class="sold">已售3.8万</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/discount-all-item-10.png">
+                            <p class="discount-item-title">瑞林达装饰(新街口店)</p>
+                            <p class="discount-item-info">[新街口/金轮/五台山体育中心]岁末装修总动员</p>
+                            <p class="discount-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">0.1</span>
+                                </span>
+                                <span class="price-primary">门市价4999</span>
+                                <span class="sold">已售0</span>
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!--猫眼电影选项卡-->
+    <div class="bg-lgray">
+        <div class="movie-box sec1190">
+        <div class="movie">
+            <div class="movie-list">
+                <dl class="" id="movie-list">
+                    <dt>猫眼电影</dt>
+                    <dd class="active">正在热映</dd>
+                    <dd>即将上映</dd>
+                </dl>
+            <a href="" class="all-movie">全部<i class="movie-right-row"></i></a>
+            </div>
+            <div class="movie-item" id="movie-item">
+                <ul>
+                    <li>
+                        <a href="">
+                            <img src="images/movie-now-item-1.png">
+                            <div class="movie-info">
+                                <p class="movie-score">观众评 <span class="font-16 c-orange2">8.8</span></p>
+                                <p class="movie-item-title">妖铃铃</p>
+                                <p class="movie-buy-button">购票</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/movie-now-item-2.png">
+                            <div class="movie-info">
+                                <p class="movie-score">观众评 <span class="font-16 c-orange2">8.8</span></p>
+                                <p class="movie-item-title">我来过</p>
+                                <p class="movie-buy-button">购票</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/movie-now-item-3.png">
+                            <div class="movie-info">
+                                <p class="movie-score">观众评 <span class="font-16 c-orange2">9.1</span></p>
+                                <p class="movie-item-title">尼斯：疯狂的心</p>
+                                <p class="movie-buy-button">购票</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/movie-now-item-4.png">
+                            <div class="movie-info">
+                                <p class="movie-score">观众评 <span class="font-16 c-orange2">8.7</span></p>
+                                <p class="movie-item-title">天籁梦想</p>
+                                <p class="movie-buy-button">购票</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/movie-now-item-5.png">
+                            <div class="movie-info">
+                                <p class="movie-score">观众评 <span class="font-16 c-orange2">9.1</span></p>
+                                <p class="movie-item-title">勇敢者游戏</p>
+                                <p class="movie-buy-button">购票</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="">
+                            <img src="images/movie-will-item-1.png">
+                            <div class="movie-info">
+                                <p class="movie-score">观众评 <span class="font-16 c-orange2">8.8</span></p>
+                                <p class="movie-item-title">妖铃铃</p>
+                                <p class="movie-buy-button">购票</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/movie-will-item-2.png">
+                            <div class="movie-info">
+                                <p class="movie-score">观众评 <span class="font-16 c-orange2">8.8</span></p>
+                                <p class="movie-item-title">我来过</p>
+                                <p class="movie-buy-button">购票</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/movie-will-item-3.png">
+                            <div class="movie-info">
+                                <p class="movie-score">观众评 <span class="font-16 c-orange2">9.1</span></p>
+                                <p class="movie-item-title">尼斯：疯狂的心</p>
+                                <p class="movie-buy-button">购票</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/movie-will-item-4.png">
+                            <div class="movie-info">
+                                <p class="movie-score">观众评 <span class="font-16 c-orange2">8.7</span></p>
+                                <p class="movie-item-title">天籁梦想</p>
+                                <p class="movie-buy-button">购票</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/movie-will-item-5.png">
+                            <div class="movie-info">
+                                <p class="movie-score">观众评 <span class="font-16 c-orange2">9.1</span></p>
+                                <p class="movie-item-title">勇敢者游戏</p>
+                                <p class="movie-buy-button">购票</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!--猜你喜欢选项卡-->
+    <div class="bg-lgray">
+        <div class="recommend-box sec1190">
+        <div class="recommend">
+            <dl class="recommend-list" id="recommend-list">
+                <dt>猜你喜欢</dt>
+                <dd class="active">为你甄选最适合的</dd>
+            </dl>
+            <div class="recommend-item" id="recommend-item">
+                <ul>
+                    <li>
+                        <a href="">
+                            <img src="images/recommend-item-1.png">
+                            <p class="recommend-item-title">龙门花甲（大方巷店）</p>
+                            <p class="recommend-item-remark">
+                                <div class="star">
+                                    <span class="star-under"></span>
+                                    <span class="star-up" style="width: 100%"></span>
+                                </div>
+                                <span class="c-lgray">81个评价</span>
+                            </p>
+                            <p class="recommend-item-address">山西路/湖南路</p>
+                            <p class="recommend-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">9.9</span>起
+                                </span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/recommend-item-2.png">
+                            <p class="recommend-item-title">龙门花甲（大方巷店）</p>
+                            <p class="recommend-item-remark">
+                                <div class="star">
+                                    <span class="star-under"></span>
+                                    <span class="star-up" style="width: 100%"></span>
+                                </div>
+                                <span class="c-lgray">81个评价</span>
+                            </p>
+                            <p class="recommend-item-address">山西路/湖南路</p>
+                            <p class="recommend-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">9.9</span>起
+                                </span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/recommend-item-3.png">
+                            <p class="recommend-item-title">龙门花甲（大方巷店）</p>
+                            <p class="recommend-item-remark">
+                            <div class="star">
+                                <span class="star-under"></span>
+                                <span class="star-up" style="width: 100%"></span>
+                            </div>
+                            <span class="c-lgray">81个评价</span>
+                            </p>
+                            <p class="recommend-item-address">山西路/湖南路</p>
+                            <p class="recommend-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">9.9</span>起
+                                </span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/recommend-item-4.png">
+                            <p class="recommend-item-title">龙门花甲（大方巷店）</p>
+                            <p class="recommend-item-remark">
+                            <div class="star">
+                                <span class="star-under"></span>
+                                <span class="star-up" style="width: 100%"></span>
+                            </div>
+                            <span class="c-lgray">81个评价</span>
+                            </p>
+                            <p class="recommend-item-address">山西路/湖南路</p>
+                            <p class="recommend-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">9.9</span>起
+                                </span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/recommend-item-5.png">
+                            <p class="recommend-item-title">龙门花甲（大方巷店）</p>
+                            <p class="recommend-item-remark">
+                            <div class="star">
+                                <span class="star-under"></span>
+                                <span class="star-up" style="width: 100%"></span>
+                            </div>
+                            <span class="c-lgray">81个评价</span>
+                            </p>
+                            <p class="recommend-item-address">山西路/湖南路</p>
+                            <p class="recommend-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">9.9</span>起
+                                </span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/recommend-item-6.png">
+                            <p class="recommend-item-title">龙门花甲（大方巷店）</p>
+                            <p class="recommend-item-remark">
+                            <div class="star">
+                                <span class="star-under"></span>
+                                <span class="star-up" style="width: 100%"></span>
+                            </div>
+                            <span class="c-lgray">81个评价</span>
+                            </p>
+                            <p class="recommend-item-address">山西路/湖南路</p>
+                            <p class="recommend-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">9.9</span>起
+                                </span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/recommend-item-7.png">
+                            <p class="recommend-item-title">龙门花甲（大方巷店）</p>
+                            <p class="recommend-item-remark">
+                            <div class="star">
+                                <span class="star-under"></span>
+                                <span class="star-up" style="width: 100%"></span>
+                            </div>
+                            <span class="c-lgray">81个评价</span>
+                            </p>
+                            <p class="recommend-item-address">山西路/湖南路</p>
+                            <p class="recommend-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">9.9</span>起
+                                </span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/recommend-item-8.png">
+                            <p class="recommend-item-title">龙门花甲（大方巷店）</p>
+                            <p class="recommend-item-remark">
+                            <div class="star">
+                                <span class="star-under"></span>
+                                <span class="star-up" style="width: 100%"></span>
+                            </div>
+                            <span class="c-lgray">81个评价</span>
+                            </p>
+                            <p class="recommend-item-address">山西路/湖南路</p>
+                            <p class="recommend-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">9.9</span>起
+                                </span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/recommend-item-9.png">
+                            <p class="recommend-item-title">龙门花甲（大方巷店）</p>
+                            <p class="recommend-item-remark">
+                            <div class="star">
+                                <span class="star-under"></span>
+                                <span class="star-up" style="width: 100%"></span>
+                            </div>
+                            <span class="c-lgray">81个评价</span>
+                            </p>
+                            <p class="recommend-item-address">山西路/湖南路</p>
+                            <p class="recommend-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">9.9</span>起
+                                </span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/recommend-item-10.png">
+                            <p class="recommend-item-title">龙门花甲（大方巷店）</p>
+                            <p class="recommend-item-remark">
+                            <div class="star">
+                                <span class="star-under"></span>
+                                <span class="star-up" style="width: 100%"></span>
+                            </div>
+                            <span class="c-lgray">81个评价</span>
+                            </p>
+                            <p class="recommend-item-address">山西路/湖南路</p>
+                            <p class="recommend-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">9.9</span>起
+                                </span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/recommend-item-11.png">
+                            <p class="recommend-item-title">龙门花甲（大方巷店）</p>
+                            <p class="recommend-item-remark">
+                            <div class="star">
+                                <span class="star-under"></span>
+                                <span class="star-up" style="width: 100%"></span>
+                            </div>
+                            <span class="c-lgray">81个评价</span>
+                            </p>
+                            <p class="recommend-item-address">山西路/湖南路</p>
+                            <p class="recommend-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">9.9</span>起
+                                </span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/recommend-item-12.png">
+                            <p class="recommend-item-title">龙门花甲（大方巷店）</p>
+                            <p class="recommend-item-remark">
+                            <div class="star">
+                                <span class="star-under"></span>
+                                <span class="star-up" style="width: 100%"></span>
+                            </div>
+                            <span class="c-lgray">81个评价</span>
+                            </p>
+                            <p class="recommend-item-address">山西路/湖南路</p>
+                            <p class="recommend-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">9.9</span>起
+                                </span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/recommend-item-13.png">
+                            <p class="recommend-item-title">龙门花甲（大方巷店）</p>
+                            <p class="recommend-item-remark">
+                            <div class="star">
+                                <span class="star-under"></span>
+                                <span class="star-up" style="width: 100%"></span>
+                            </div>
+                            <span class="c-lgray">81个评价</span>
+                            </p>
+                            <p class="recommend-item-address">山西路/湖南路</p>
+                            <p class="recommend-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">9.9</span>起
+                                </span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/recommend-item-14.png">
+                            <p class="recommend-item-title">龙门花甲（大方巷店）</p>
+                            <p class="recommend-item-remark">
+                            <div class="star">
+                                <span class="star-under"></span>
+                                <span class="star-up" style="width: 100%"></span>
+                            </div>
+                            <span class="c-lgray">81个评价</span>
+                            </p>
+                            <p class="recommend-item-address">山西路/湖南路</p>
+                            <p class="recommend-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">9.9</span>起
+                                </span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/recommend-item-15.png">
+                            <p class="recommend-item-title">龙门花甲（大方巷店）</p>
+                            <p class="recommend-item-remark">
+                            <div class="star">
+                                <span class="star-under"></span>
+                                <span class="star-up" style="width: 100%"></span>
+                            </div>
+                            <span class="c-lgray">81个评价</span>
+                            </p>
+                            <p class="recommend-item-address">山西路/湖南路</p>
+                            <p class="recommend-item-price">
+                                <span class="price-wrapper">
+                                    <span class="price-symbol">¥</span>
+                                    <span class="price-current">9.9</span>起
+                                </span>
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!--导航链接-->
+    <div class="bg-lgray">
+        <div class="links sec1190">
+        <!--<img src="slices/13.links.gif">-->
+        <div class="links-title">
+            美团导航
+        </div>
+        <div class="links-list">
+            <div class="hot-city">
+                <dl>
+                    <dt>热门城市</dt>
+                    <div class="hot-city-list">
+                        <dd><a href="">合肥</a></dd>
+                        <dd><a href="">沈阳</a></dd>
+                        <dd><a href="">郑州</a></dd>
+                        <dd><a href="">南京</a></dd>
+                        <dd><a href="">厦门</a></dd>
+                        <dd><a href="">福州</a></dd>
+                        <dd><a href="">西安</a></dd>
+                        <dd><a href="">上海</a></dd>
+                        <dd><a href="">佛山</a></dd>
+                        <dd><a href="">南宁</a></dd>
+                        <dd><a href="">太原</a></dd>
+                        <dd><a href="">成都</a></dd>
+                        <dd><a href="">东莞</a></dd>
+                        <dd><a href="">昆明</a></dd>
+                        <dd><a href="">苏州</a></dd>
+                        <dd><a href="">哈尔滨</a></dd>
+                        <dd><a href="">长沙</a></dd>
+                        <dd><a href="">无锡</a></dd>
+                        <dd><a href="">武汉</a></dd>
+                        <dd><a href="">宁波</a></dd>
+                    </div>
+                </dl>
+            </div>
+            <div class="hot-category">
+                <dl>
+                    <dt>热门分类</dt>
+                    <dd><a href="">美食</a></dd>
+                    <dd><a href="">休闲娱乐</a></dd>
+                    <dd><a href="">运动健身</a></dd>
+                    <dd><a href="">生活服务</a></dd>
+                    <dd><a href="">上门服务</a></dd>
+                    <dd><a href="">购物</a></dd>
+                    <dd><a href="">时尚购</a></dd>
+                    <dd><a href="">本地购物</a></dd>
+                    <dd><a href="">结婚</a></dd>
+                    <dd><a href="">摄影写真</a></dd>
+                    <dd><a href="">宴会</a></dd>
+                    <dd><a href="">丽人</a></dd>
+                    <dd><a href="">母婴亲子</a></dd>
+                    <dd><a href="">学习培训</a></dd>
+                    <dd><a href="">家装</a></dd>
+                    <dd><a href="">汽车服务</a></dd>
+                    <dd><a href="">医疗</a></dd>
+                    <dd><a href="">宠物</a></dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!--脚注1-->
+    <div class="bg-lgray">
+        <div class="footer1 sec1190">
+        <!--<img src="slices/14.footer1.gif">-->
+        <div class="section1">
+            <div class="user-help">
+                <dl>
+                    <dt>用户帮助</dt>
+                    <dd><a href="">美团承诺</a></dt>
+                    <dd><a href="">购物保障</a></dt>
+                    <dd><a href="">申请退款</a></dt>
+                    <dd><a href="">查看美团券密码</a></dt>
+                    <dd><a href="">常见问题</a></dt>
+                    <dd><a href="">用户协议</a></dt>
+                    <dd><a href="">隐私政策</a></dt>
+                    <dd><a href="">隐私政策</a></dt>
+                    <dd><a href="">反诈骗广告</a></dt>
+                </dl>
+            </div>
+            <div class="margin-top20">
+                <dl>
+                    <dt>美团服务</dt>
+                    <dd><a href="">美团外卖</a></dt>
+                    <dd><a href="">美团酒店</a></dt>
+                    <dd><a href="">猫眼电影</a></dt>
+                    <dd><a href="">美团云</a></dt>
+                    <dd><a href="">大众点评</a></dt>
+                    <dd><a href="">榛果民宿</a></dt>
+                </dl>
+            </div>
+        </div>
+        <div class="section2">
+            <dl>
+                <dt>商家合作</dt>
+                <dd><a href="">美食商家入驻（非外卖）</a></dt>
+                <dd><a href="">美团外卖开店申请</a></dt>
+                <dd><a href="">酒店商家入驻</a></dt>
+                <dd><a href="">境内度假商家入驻</a></dt>
+                <dd><a href="">榛果民宿房东商家入驻</a></dt>
+                <dd><a href="">商家开票申请</a></dt>
+                <dd><a href="">美团点评智能收银机</a></dt>
+                <dd><a href="">聚宝盆餐饮开放平台</a></dt>
+                <dd><a href="">美团智能支付</a></dt>
+            </dl>
+        </div>
+        <div class="section3">
+            <div>
+                <dl>
+                    <dt>代理商加盟</dt>
+                    <dd><a href="">到店餐饮代理商招募</a></dt>
+                    <dd><a href="">非餐饮代理商招募</a></dt>
+                    <dd><a href="">美团联盟</a></dt>
+                </dl>
+            </div>
+            <div class="margin-top20">
+                <dl>
+                    <dt>行业规范</dt>
+                    <dd><a href="">美团点评餐饮安全管理办法</a></dt>
+                </dl>
+            </div>
+            <div class="margin-top20">
+                <dl>
+                    <dt>廉政举报</dt>
+                    <dd><a href="">廉政邮箱</a></dt>
+                </dl>
+            </div>
+        </div>
+        <div class="section4">
+            <div>
+                <dl>
+                    <dt>关注美团</dt>
+                    <dd><a href="">美团新浪微博</a></dt>
+                </dl>
+            </div>
+            <div class="margin-top20">
+                <dl>
+                    <dt>关于美团</dt>
+                    <dd><a href="">媒体报道</a></dt>
+                </dl>
+            </div>
+            <div class="margin-top20">
+                <dl>
+                    <dt>公司信息</dt>
+                    <dd><a href="">加入我们</a></dt>
+                    <dd><a href="">法律声明</a></dt>
+                    <dd><a href="">商户服务协议</a></dt>
+                    <dd><a href="">商户诚信公约及管理办法</a></dt>
+                </dl>
+            </div>
+        </div>
+        <div class="service-tele">
+            <span class="custom-service">客服电话</span>
+            <p class="telephone">10107888</p>
+            <p class="time-period">(9:00-23:00)</p>
+        </div>
+    </div>
+    </div>
+    <!--脚注2-->
+    <div class="bg-lgray">
+        <div class="footer2 sec1190">
+        <div class="footer2-copyright">
+            <div class="copyright-left">
+                <span class="c-lgray">©美团网团购 meituan.com</span>
+                <a href="">京ICP证070791号</a>
+                <a href="">京ICP证070791号</a>
+                <a href="">京ICP备10211739号</a>
+                <a href="">电子公告服务规则</a>
+            </div>
+            <div class="copyright-right">
+                <a href="">京公网安备11010502025545号</a>
+            </div>
+        </div>
+        <div class="footer2-license">
+            <a href="">广播电视节目制作经营许可证（京）字第03889号</a>
+            <div class="license">
+                <a href="" title="备案信息"><img src="images/license1.png"></a>
+                <a href="" title="可信网站认证"><img src="images/license2.png"></a>
+                <a href="" title="12315消费争议"><img src="images/license3.png"></a>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>

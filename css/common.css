@@ -1,0 +1,42 @@
+/*common.css*/
+
+.sec1190{
+    width: 1190px;
+    margin: 0 auto;
+}
+.bg-white{
+    background: #ffffff;
+    width: 100%;
+}
+.bg-lgray{
+    background: #F8F8F8;
+}
+/*------------项目中要用到颜色-----------*/
+.c-orange{
+    color:#f76120;          /*桔黄色*/
+}
+.c-blue{
+    color:#2bb8aa;          /*蓝色：*/
+}
+.c-dgray{                   /*深灰色：*/
+    color:#333;
+}
+.c-gray{                    /*灰色*/
+    color:#666 !important;
+}
+.c-lgray{                   /*浅灰色：*/
+    color:#999 ;
+     }
+.c-red{
+    color: #ec5330;         /*红色*/
+}
+.c-orange2{
+    color: #fd9827;
+}
+.font-16{
+    font-size: 16px;
+    /*font-weight: bold;*/
+}
+.margin-top20{
+    margin-top: 20px;
+}

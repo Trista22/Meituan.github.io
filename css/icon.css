@@ -1,0 +1,91 @@
+.icon-food{
+    background-image: url("../images/category-icons.png");
+    background-position: 0 -1px;
+    opacity: 0.3;
+}
+.icon-waimai{
+    background-image: url("../images/category-icons.png");
+    background-position: 0 -27px;
+    opacity: 0.3;
+}
+.icon-hotel{
+    background-image: url("../images/category-icons.png");
+    background-position: 0 -53px;
+    opacity: 0.3;
+}
+.icon-zhenguo{
+    background-image: url("../images/category-icons.png");
+    background-position: 0 -79px;
+    opacity: 0.3;
+}.icon-maoyan{
+     background-image: url("../images/category-icons.png");
+     background-position: 0 -104px;
+     opacity: 0.3;
+ }
+.icon-ticket{
+    background-image: url("../images/category-icons.png");
+    background-position: 0 -130px;
+    opacity: 0.3;
+}
+.icon-ktv{
+    background-image: url("../images/category-icons.png");
+    background-position: 0 -157px;
+    opacity: 0.3;
+}
+.icon-service{
+    background-image: url("../images/category-icons.png");
+    background-position: 0 -183px;
+    opacity: 0.3;
+}
+.icon-beauty{
+    background-image: url("../images/category-icons.png");
+    background-position: 0 -208px;
+     opacity: 0.3;
+}
+.icon-marry{
+    background-image: url("../images/category-icons.png");
+    background-position: 0 -234px;
+     opacity: 0.3;
+}
+.icon-children{
+    background-image: url("../images/category-icons.png");
+    background-position: 0 -261px;
+     opacity: 0.3;
+}
+.icon-gym{
+    background-image: url("../images/category-icons.png");
+    background-position: 0 -285px;
+     opacity: 0.3;
+}
+.icon-furnishing{
+    background-image: url("../images/category-icons.png");
+    background-position: 0 -310px;
+     opacity: 0.3;
+}
+.icon-train{
+    background-image: url("../images/category-icons.png");
+    background-position: 0 -337px;
+     opacity: 0.3;
+}
+.icon-medical{
+     background-image: url("../images/category-icons.png");
+     background-position: 0 -363px;
+     opacity: 0.3;
+}
+.icon-bar{
+    background-image: url("../images/category-icons.png");
+    background-position: 0 -388px;
+     opacity: 0.3;
+}
+.right-row{
+    display: inline-block;
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 4px;
+    height: 4px;
+    border-right: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    transform: rotate(-45deg);
+}
+
